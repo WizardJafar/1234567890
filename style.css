@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+body{
+    background: #f2f2f2;
+}
+
+h1{
+    font-size: 120px;
+    text-align: center;
+    color:  rgba(255, 255, 255, .4);;
+}
+
+.parallax-1 {
+    background: url(./img1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.parallax-2 {
+    background: url('img2.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.parallax-3 {
+    background: url('img3.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.parallax-inner {
+    padding: 10% 0;
+}
+
+h2{
+    font-size: 32px;
+    color: #555;
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 2px;
+    margin: 20px 0 10px;
+}
+
+p:nth-of-type(2),
+p:nth-of-type(3){
+    margin: 40px 40px;
+}
+
+.text1{
+    background: hsla(120, 6%, 90%, 1);
+
+background: linear-gradient(360deg, hsla(120, 6%, 90%, 1) 0%, hsla(228, 75%, 16%, 1) 100%);
+
+background: -moz-linear-gradient(360deg, hsla(120, 6%, 90%, 1) 0%, hsla(228, 75%, 16%, 1) 100%);
+
+background: -webkit-linear-gradient(360deg, hsla(120, 6%, 90%, 1) 0%, hsla(228, 75%, 16%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#E4E7E4", endColorstr="#0A1647", GradientType=1 );
+    text-shadow: 2px 2px 5px blueviolet;
+}
+
+.text2{
+    background: hsla(207, 80%, 59%, 1);
+
+background: linear-gradient(180deg, hsla(207, 80%, 59%, 1) 0%, hsla(344, 64%, 79%, 1) 50%, hsla(343, 93%, 69%, 1) 100%);
+
+background: -moz-linear-gradient(180deg, hsla(207, 80%, 59%, 1) 0%, hsla(344, 64%, 79%, 1) 50%, hsla(343, 93%, 69%, 1) 100%);
+
+background: -webkit-linear-gradient(180deg, hsla(207, 80%, 59%, 1) 0%, hsla(344, 64%, 79%, 1) 50%, hsla(343, 93%, 69%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#45A0EA", endColorstr="#ECA9BB", GradientType=1 );
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(255, 102, 0), 0 0 5px rgb(255, 102, 0);
+}
+
+.text3{
+    background: hsla(54, 62%, 85%, 1);
+
+background: linear-gradient(180deg, hsla(54, 62%, 85%, 1) 0%, hsla(196, 80%, 79%, 1) 50%, hsla(6, 81%, 54%, 1) 100%);
+
+background: -moz-linear-gradient(180deg, hsla(54, 62%, 85%, 1) 0%, hsla(196, 80%, 79%, 1) 50%, hsla(6, 81%, 54%, 1) 100%);
+
+background: -webkit-linear-gradient(180deg, hsla(54, 62%, 85%, 1) 0%, hsla(196, 80%, 79%, 1) 50%, hsla(6, 81%, 54%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F0EBC0", endColorstr="#9DDDF4", GradientType=1 );
+text-shadow: -1px 0 black, 0 1px rgb(89, 0, 255), 1px 0 rgb(255, 0, 0), 0 -1px rgb(89, 0, 255);
+}
+
